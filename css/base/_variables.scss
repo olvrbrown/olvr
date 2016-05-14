@@ -3,11 +3,11 @@ $medium-screen: 600px;
 $large-screen: 900px;
 
 // Typography
-$base-font-family: $font-stack-system;
-$heading-font-family: $base-font-family;
+$base-font-family: $font-stack-georgia;
+$heading-font-family: $font-stack-helvetica;
 
 // Font Sizes
-$base-font-size: 1em;
+$base-font-size: 1.2em;
 
 // Line height
 $base-line-height: 1.5;
@@ -25,9 +25,11 @@ $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
 
+$text-gray: #93877D;
+
 // Font Colors
-$base-font-color: $dark-gray;
-$action-color: $blue;
+$base-font-color: $text-gray;
+$action-color: $dark-gray;
 
 // Border
 $base-border-color: $light-gray;

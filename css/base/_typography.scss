@@ -14,7 +14,8 @@ h6 {
   font-family: $heading-font-family;
   font-size: modular-scale(1);
   line-height: $heading-line-height;
-  margin: 0 0 $small-spacing;
+  color: $dark-gray;
+  margin: $base-spacing * 2 0 0;
 }
 
 p {
@@ -29,7 +30,7 @@ a {
   &:active,
   &:focus,
   &:hover {
-    color: shade($action-color, 25%);
+    color: tint($action-color, 33%);
   }
 }
 
