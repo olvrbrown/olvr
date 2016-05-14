@@ -3,12 +3,18 @@
 @import "bourbon/bourbon";
 @import "base/base";
 
-$header-color: #9FA803;
+$header-gray: #95897D;
+$header-orange: #F18E00;
+$header-pink: #D60059;
+$header-blue: #70A2D4;
+$header-green: #9FA803;
+
+$header-color: $header-green;  // default
+
 
 body {
 	text-align: center;
 }
-
 h1 {
 	margin: $base-spacing*2 0 $small-spacing;
 	font-size: 2.25em;
@@ -33,7 +39,7 @@ p {
 header {
 	width: 100%;
 	background-color: $header-color;
-	background: linear-gradient($header-color, tint($header-color,40%));
+	background: linear-gradient($header-color, tint($header-color,30%));
 	border-bottom: solid 1px $header-color;
 	h1, h2 {
 		padding: $small-spacing /2;
@@ -49,7 +55,7 @@ footer {
 	margin-top: 4*$base-spacing;
 	width: 100%;
 	background-color: $header-color;
-	background: linear-gradient(tint($header-color,40%), $header-color);
+	background: linear-gradient(tint($header-color,30%), $header-color);
 	border-top: solid 1px $header-color;
 	color: #fff;
 	font-size: modular-scale(-1);
