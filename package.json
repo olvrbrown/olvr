@@ -1,0 +1,12 @@
+{
+  "name": "olvr.org",
+  "version": "1.0.0",
+  "description": "Source code for http://olvr.org",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olvrbrown/olvr.org.git"
+  },
+  "author": "Ollie Brown",
+  "license": "UNLICENSED"
+}
