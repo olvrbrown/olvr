@@ -8,5 +8,8 @@
     "url": "git+https://github.com/olvrbrown/olvr.org.git"
   },
   "author": "Ollie Brown",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
 }
