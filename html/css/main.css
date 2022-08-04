@@ -180,6 +180,10 @@ p {
   border-radius: 50px;
 }
 
+.profile.profile-error img {
+  transform: rotate(180deg);
+}
+
 .profile:after {
   content: '';
   position: absolute;
